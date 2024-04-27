@@ -1,0 +1,5 @@
+[{
+    "output": "Label the given Input as 0 or 1, where 0 is not hateful and 1 is hateful.\n### Input:\nஉடல் ஊனமுற்றவர் ஓவொருவருடைய வாழ்க்கையும் முடிக்கணும்னு ஆசைப்படுறேன் டா.\n### Label:\n###",
+    "actual_label": 0,
+    "case_id": 158
+}]
