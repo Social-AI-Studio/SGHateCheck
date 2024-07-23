@@ -1,0 +1,32 @@
+output_folder: ../sample_query
+output_result_path: ${output_folder}/output_result.csv
+output_all_path: ${output_folder}/output_all.csv
+log_path: ${output_folder}/log_file.log
+
+# select input file characteristics
+input_file_path: ../annotations/ss_annotations.csv
+
+input_column_testcase: c_testcase
+input_column_groundtruth: annotation_selected
+input_column_serial: c_id
+input_column_english: c_testcase
+
+# normally false unless starting half way
+input_serial_start: 0
+
+input_column_groups:
+  - t_id
+  - t_function
+  - t_direction
+  - p_target
+
+
+# query settings
+query_settings: 
+  minwait: 5
+  maxwait: 15
+  file_path: ../experiments/llama-engset-sghc_en.json
+  annotation_path: ../annotations/ss_annotations.csv
+
+# number of queries between each autosave
+autosave_batch: 100

@@ -1,0 +1,14 @@
+# conda env create -f environment.yml
+
+name: sghc-1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.4
+  - pip
+  - pip:
+    - omegaconf==2.3.0
+    - pandas==2.2.2 
+    - ipykernel==6.29.5 
+    - matplotlib==3.9.1 
